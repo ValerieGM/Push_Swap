@@ -6,7 +6,7 @@
 /*   By: vgongora <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/16 14:07:42 by vgongora          #+#    #+#             */
-/*   Updated: 2018/09/20 17:45:36 by vgongora         ###   ########.fr       */
+/*   Updated: 2019/08/18 13:31:51 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static int		rd(t_stack a, t_stack b, char *line)
 	if (check_sort(&a) == 0)
 		return (wr());
 	ft_putendl("OK");
-	sleep(60);
+	//sleep(60);
 	cleanup(&a, &b, line);
 	return (1);
 }
@@ -46,6 +46,6 @@ int				main(int ac, char **av)
 	input(&a, &b, line, av, ac);	
 	if (!(rd(a, b, line) == 0))
 		exit(1);
-	sleep(60);
+	//sleep(60);
 	return (0);
 }

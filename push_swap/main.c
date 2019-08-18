@@ -6,7 +6,7 @@
 /*   By: vgongora <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/15 14:42:17 by vgongora          #+#    #+#             */
-/*   Updated: 2018/09/20 13:33:11 by vgongora         ###   ########.fr       */
+/*   Updated: 2019/08/18 13:55:12 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static void		srt(t_stack *a, t_stack *b, int ac)
 			sort_3(a);
 		else if (a->max == 4)
 			sort_4(a, b);
-		else if (a->max >= 5)
+		else if (a->max > 4)
 			sort_5(a, b);
 	}
 }
