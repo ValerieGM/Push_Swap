@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   push.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgongora <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/15 14:28:22 by vgongora          #+#    #+#             */
-/*   Updated: 2018/09/17 12:21:59 by vgongora         ###   ########.fr       */
+/*   Updated: 2020/07/20 16:44:30 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "checker.h"
+#include "../includes/checker.h"
 
 void	pa(t_stack *a, t_stack *b)
 {

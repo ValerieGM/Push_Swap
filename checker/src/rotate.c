@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   rotate.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgongora <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/15 14:11:00 by vgongora          #+#    #+#             */
-/*   Updated: 2018/09/17 12:22:16 by vgongora         ###   ########.fr       */
+/*   Updated: 2020/07/20 16:44:43 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "checker.h"
+#include "../includes/checker.h"
 
 void	ra(t_stack *a)
 {

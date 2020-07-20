@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   arg.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgongora <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/18 11:12:59 by vgongora          #+#    #+#             */
-/*   Updated: 2018/09/20 14:11:47 by vgongora         ###   ########.fr       */
+/*   Updated: 2020/07/20 16:44:11 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "checker.h"
+#include "../includes/checker.h"
 
 static int		cut(t_stack *a, t_stack *b, char *line)
 {

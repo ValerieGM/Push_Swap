@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: vgongora <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/08/21 12:44:53 by vgongora          #+#    #+#              #
-#    Updated: 2018/09/20 13:53:31 by vgongora         ###   ########.fr        #
+#    Updated: 2020/07/20 16:46:18 by vgongora         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,14 +21,14 @@ SRC = swap.c \
 	  main.c \
 	  check.c \
 	  arg.c \
-	  ../push_swap/error.c \
+	  ../../push_swap/src/error.c \
 
-DIR = ../libft
+DIR = ../../libft
 
 all: $(NAME)
 $(NAME):
 	make all -C $(DIR)
-	gcc $(FLAGS) -o  $(NAME) $(SRC) ../libft/libft.a
+	gcc $(FLAGS) -o  $(NAME) $(SRC) ../../libft/libft.a
 
 clean:
 	make clean -C $(DIR)
